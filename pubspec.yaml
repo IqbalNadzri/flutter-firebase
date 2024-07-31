@@ -1,0 +1,43 @@
+name: project_navigation
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_secure_storage: ^9.0.0
+  google_fonts: ^6.2.1
+  geolocator: ^11.0.0
+  image_picker: ^1.0.7
+  permission_handler: ^11.3.0
+  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.15.9
+  firebase_core: ^2.31.0
+  barcode_scanner: ^3.6.2
+  barcode: ^2.2.6
+  simple_barcode_scanner: ^0.1.0
+  flutter_barcode_scanner: ^2.0.0
+  simnumber: ^0.0.12
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
